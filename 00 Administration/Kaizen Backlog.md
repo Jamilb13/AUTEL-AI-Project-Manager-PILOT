@@ -1,6 +1,6 @@
 ---
 document: Kaizen Backlog.md
-version: 0.2
+version: 0.3
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -28,11 +28,11 @@ Pokud během práce na projektu nebo při jeho testování vznikne nápad na bud
 
 ## Evidence nápadů
 
-| ID | Nápad / Zlepšení | Odkaz na složku | Status | Přínos |
-| :--- | :--- | :--- | :--- | :--- |
-| K-001 | Integrace Obsidianu s firemním SharePointem pomocí synchronizačního skriptu | [[Configuration]] | Zapsáno | Automatická aktualizace znalostní báze pro Copilot. |
-| K-002 | Vytvoření specializované AI persony pro kontrolu norem v AUTEL | [[Personas]] | Zapsáno | Zrychlení kontroly souladu projektové dokumentace s ČSN norem. |
-| K-003 | Šablona pro automatické generování Lessons Learned pomocí ChatGPT | [[AI Templates]] | Zapsáno | Snazší sběr a zpracování chyb z realizovaných projektů. |
+| ID | Nápad / Zlepšení | Priorita | Status |
+| :--- | :--- | :--- | :--- |
+| KAI-001 | Personalizace PM person | Medium | Backlog |
+| KAI-002 | Decision Brain | Medium | Backlog |
+| KAI-003 | AI Playbooks | High | Planned |
 
 ---
 

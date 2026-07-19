@@ -1,6 +1,6 @@
 ---
 document: Task List.md
-version: 0.2
+version: 0.3
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -25,36 +25,36 @@ Při plánování schůzek, aktualizaci stavu projektu a při zahájení nebo do
 
 ## Backlog
 
-- [ ] Vytvořit šablony pro jednotlivé expertní domény v [[Brain PM]].
-- [ ] Zpracovat návrh informační architektury ve složce [[06 Architecture]].
-- [ ] Připravit testovací scénáře pro pilotní nasazení v [[07 Testing]].
-- [ ] Definovat pravidla zabezpečení dat v rámci [[AI Policies]].
+- [ ] T-002 | Vytvořit šablony pro jednotlivé expertní domény v [[Brain PM]] | Low | Backlog
+- [ ] T-003 | Zpracovat návrh informační architektury ve složce [[06 Architecture]] | Medium | Backlog
+- [ ] T-004 | Připravit testovací scénáře pro pilotní nasazení v [[07 Testing]] | Medium | Backlog
+- [ ] T-005 | Definovat pravidla zabezpečení dat v rámci [[AI Policies]] | High | Backlog
 
 ---
 
 ## Todo
 
-- [ ] Inicializovat prázdnou strukturu Git repozitáře a provést první commit.
-- [ ] Vytvořit úvodní dokumenty pro všechny podsložky repozitáře.
-
 ---
 
 ## In Progress
 
-- [/] Tvorba základní dokumentace (Foundation) – tvorba [[README]] a [[Folder Map]].
+- [/] T-001 | Vytvořit Project Charter | High | In Progress
 
 ---
 
 ## Review
 
-- [ ] Schválení základní dokumentace (Project Charter, Roadmap, Folder Map) Product Ownerem.
+- [ ] T-006 | Schválení základní dokumentace (Project Charter, Roadmap, Folder Map) Product Ownerem | High | Review
 
 ---
 
 ## Done
 
-- [x] Úprava a přeuspořádání adresářové struktury projektu podle schváleného návrhu.
-- [x] Aktualizace a sjednocení metadat u stávajících dokumentů [[PROJECT_CONTEXT]] a [[CHATGPT_ROLE]].
+- [x] T-007 | Úprava a přeuspořádání adresářové struktury projektu podle schváleného návrhu | High | Done
+- [x] T-008 | Aktualizace a sjednocení metadat u stávajících dokumentů [[PROJECT_CONTEXT]] a [[CHATGPT_ROLE]] | Medium | Done
+- [x] T-009 | Inicializovat prázdnou strukturu Git repozitáře a provést první commit | High | Done
+- [x] T-010 | Vytvořit úvodní dokumenty pro všechny podsložky repozitáře | High | Done
+- [x] T-011 | Tvorba základní dokumentace (Foundation) – tvorba [[README]] a [[Folder Map]] | High | Done
 
 ---
 
