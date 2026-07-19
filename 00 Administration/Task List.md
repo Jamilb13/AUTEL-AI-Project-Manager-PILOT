@@ -1,6 +1,6 @@
 ---
 document: Task List.md
-version: 0.4
+version: 0.5
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -33,11 +33,11 @@ Při plánování schůzek, aktualizaci stavu projektu a při zahájení nebo do
 
 ## In Progress
 
-- [/] T-001 | Vytvořit Project Charter | High | In Progress
-
 ---
 
 ## Review
+
+- [ ] T-001 | Vytvořit Project Charter | High | Review
 
 ---
 
