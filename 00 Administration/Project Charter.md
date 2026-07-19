@@ -1,6 +1,6 @@
 ---
 document: Project Charter.md
-version: 0.1
+version: 0.2
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -29,7 +29,7 @@ tags:
 
 ## 2. Účel projektu
 
-Projekt vzniká za účelem vytvoření podnikového znalostního systému pro společnost AUTEL, a.s. Ten nahradí roztříštěné toky informací a vytvoří jednotné, strukturované znalostní prostředí. Slouží k efektivnější správě a vyhledávání informací jak pro lidi, tak pro systémy umělé inteligence.
+Projekt vzniká za účelem vytvoření podnikového znalostního systému pro společnost AUTEL, a.s. Má vytvořit jednotné a strukturované znalostní prostředí pro práci s firemními a projektovými informacemi. Slouží k efektivnější správě a vyhledávání informací jak pro lidi, tak pro systémy umělé inteligence.
 
 ## 3. Cíl projektu
 
@@ -89,7 +89,7 @@ Projekt se aktuálně nachází na svém počátku ve fázi **Foundation** (arch
 
 ## 9. Omezení a předpoklady
 
-- **Místo provozu:** Pilot probíhá výhradně v osobním prostředí Product Ownera.
+- **Místo provozu:** Pilot bude nejprve provozován a ověřován v osobním prostředí Product Ownera.
 - **Využívané nástroje:** Projekt využívá stávající dostupné nástroje (M365 Copilot, SharePoint, OneDrive, Obsidian, ChatGPT).
 - **Změny rozsahu:** Rozsah a priority nelze rozšiřovat bez výslovného souhlasu Product Ownera.
 - **Rozpočet:** TBD – rozhodne Product Owner
@@ -102,8 +102,8 @@ Projekt se aktuálně nachází na svém počátku ve fázi **Foundation** (arch
 | Riziko | Dopad | Opatření k minimalizaci |
 | :--- | :--- | :--- |
 | Nekontrolované rozšiřování rozsahu projektu | Vysoký | Všechny nové nápady a požadavky zapisovat do [[Kaizen Backlog]], o zařazení do realizace rozhoduje výhradně PO. |
-| Nekonzistence projektové dokumentace | Střední | AI asistent provádí pravidelnou kontrolu a sjednocení struktury a metadat. |
-| Neověřená kvalita a chyby v AI výstupech | Vysoký | Každý výstup vygenerovaný AI podléhá lidské kontrole a explicitnímu schválení PO před commitováním. |
+| Nekonzistence projektové dokumentace | Střední | Konzistence struktury a metadat bude kontrolována při review změněných dokumentů. |
+| Neověřená kvalita a chyby v AI výstupech | Vysoký | Výstupy AI podléhají lidské kontrole. Schválený stav dokumentu určuje Product Owner; pracovní verze mohou být commitovány se stavem DRAFT. |
 | Práce s citlivými firemními informacemi | Vysoký | Striktní dodržování bezpečnostních pravidel a provoz pouze v chráněném osobním/firemním prostředí (viz [[AI Policies]]). |
 | Příliš komplexní řešení bez praktického užitku | Střední | Důsledné dodržování principů jednoduchosti a metody Kaizen. |
 
@@ -111,7 +111,7 @@ Projekt se aktuálně nachází na svém počátku ve fázi **Foundation** (arch
 
 - Projektová dokumentace je konzistentní a sjednocená.
 - Potřebné informace lze ve struktuře snadno a rychle vyhledat.
-- AI asistenti plně respektují schválená pravidla a role.
+- AI asistenti v testovaných scénářích respektují schválená pravidla a role.
 - Systém reálně pomáhá projektovým manažerům při každodenní práci s informacemi.
 - Product Owner vyhodnotí pilot jako přínosný a rozhodne o pokračování vývoje.
 
