@@ -38,12 +38,12 @@ Níže uvedená tabulka zobrazuje aktuální pokrok v budování základů (Foun
 
 | Oblast / Dokument | Stav | Související dokumenty |
 | :--- | :--- | :--- |
-| **Project Charter** | `Schváleno` | [[00 Administration/Project Charter|Project Charter]] |
-| **Foundation Governance** | `Schváleno` | [[00 Administration/PROJECT_CONTEXT|PROJECT_CONTEXT]], [[00 Administration/CHATGPT_ROLE|CHATGPT_ROLE]] |
-| **ADR Foundation** | `Schváleno` | [[docs/adr/README|ADR Úvod]], [[docs/adr/ADR-TEMPLATE|ADR Šablona]], [[docs/adr/ADR-INDEX|ADR Index]] |
-| **ADR-001** | `Schváleno` | [[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace|ADR-001 Obsidian Primary Workspace]] |
-| **ADR-002** | `Schváleno` | [[docs/adr/decisions/ADR-002-project-brain-location|ADR-002 Project Brain Location]] |
-| **ADR-003** | `Schváleno` | [[docs/adr/decisions/ADR-003-autel-knowledge-hub-location|ADR-003 AUTEL Knowledge Hub Location]] |
+| **Project Charter** | `Completed` | [[00 Administration/Project Charter|Project Charter]] |
+| **Foundation Governance** | `Completed` | [[00 Administration/PROJECT_CONTEXT|PROJECT_CONTEXT]], [[00 Administration/CHATGPT_ROLE|CHATGPT_ROLE]] |
+| **ADR Foundation** | `Completed` | [[docs/adr/README|ADR Úvod]], [[docs/adr/ADR-TEMPLATE|ADR Šablona]], [[docs/adr/ADR-INDEX|ADR Index]] |
+| **ADR-001** | `Completed` | [[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace|ADR-001 Obsidian Primary Workspace]] |
+| **ADR-002** | `Completed` | [[docs/adr/decisions/ADR-002-project-brain-location|ADR-002 Project Brain Location]] |
+| **ADR-003** | `Completed` | [[docs/adr/decisions/ADR-003-autel-knowledge-hub-location|ADR-003 AUTEL Knowledge Hub Location]] |
 
 ---
 
@@ -53,12 +53,12 @@ Tyto oblasti představují další kroky v budování základního architektonic
 
 | Oblast / Téma | Stav | Popis |
 | :--- | :--- | :--- |
-| **Knowledge Hub Foundation** | `Plánováno` | Architektonický a metodický základ celofiremního úložiště znalostí. |
-| **PARA Organization** | `Plánováno` | Logické rozdělení a organizace složek podle upravené metodiky PARA pro projekty AUTEL. |
-| **Expert Domains** | `Plánováno` | Specifikace a pravidla pro znalostní báze jednotlivých odborných oddělení. |
-| **AI Playbooks** | `Plánováno` | Standardizace pracovních postupů pro AI a instrukcí pro Copiloty. |
-| **Decision Brain** | `Plánováno` | Návrh mechanismu pro zaznamenávání a analýzu klíčových rozhodnutí v projektech. |
-| **Project Brain Specification** | `Plánováno` | Detailní technická specifikace a šablona pro Project Brain v projektech AUTEL. |
+| **Knowledge Hub Foundation** | `Planned` | Architektonický a metodický základ celofiremního úložiště znalostí. |
+| **PARA Organization** | `Planned` | Logické rozdělení a organizace složek podle upravené metodiky PARA pro projekty AUTEL. |
+| **Expert Domains** | `Planned` | Specifikace a pravidla pro znalostní báze jednotlivých odborných oddělení. |
+| **AI Playbooks** | `Planned` | Standardizace pracovních postupů pro AI a instrukcí pro Copiloty. |
+| **Decision Brain** | `Planned` | Návrh mechanismu pro zaznamenávání a analýzu klíčových rozhodnutí v projektech. |
+| **Project Brain Specification** | `Planned` | Detailní technická specifikace a šablona pro Project Brain v projektech AUTEL. |
 
 ---
 
@@ -95,7 +95,7 @@ flowchart TD
 ## 6. Pravidla
 
 Při práci s tímto roadmapem a architekturou platí následující závazná pravidla:
-- **Zápis nových oblastí:** Každá nová koncepční oblast fáze Foundation se musí nejprve objevit v tomto roadmapu jako `Plánováno`, než na ní začnou práce.
+- **Zápis nových oblastí:** Každá nová koncepční oblast fáze Foundation se musí nejprve objevit v tomto roadmapu jako `Planned`, než na ní začnou práce.
 - **Role ADR:** Záznamy ADR slouží výhradně k dokumentování zásadních architektonických a technologických rozhodnutí (nikoli k detailním návodům).
 - **Role realizačních dokumentů:** Konkrétní implementační detaily a postupy jsou popsány ve standardních metodikách a realizačních dokumentech, nikoli v ADR.
 - **Rozhodovací autorita:** O prioritách, změnách stavu a schvalování architektonických kroků rozhoduje výhradně Product Owner.
