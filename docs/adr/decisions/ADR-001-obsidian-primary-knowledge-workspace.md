@@ -1,7 +1,7 @@
 ---
 document: docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace.md
 version: 0.1
-status: APPROVED
+status: Accepted
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
@@ -19,7 +19,7 @@ tags:
 
 - **Stav:** Accepted
 - **Datum:** 2026-07-19
-- **Autor:** Kamil Běhálek / ChatGPT
+- **Autor:** Kamil Běhálek
 
 ---
 
@@ -36,7 +36,7 @@ Projekt **AUTEL AI Project Manager – PILOT** vyžaduje robustní znalostní pr
 
 ## Rozhodnutí
 - **Obsidian** je vybrán jako primární znalostní prostředí (Primary Knowledge Workspace) pro lidské uživatele.
-- **GitHub** slouží výhradně jako synchronizační a integrační vrstva (např. pro předávání stavu mezi ChatGPT, Antigravity a dalšími agenty).
+- **GitHub** slouží výhradně jako synchronizační vrstva mezi ChatGPT a Antigravity.
 - AI asistenti a vývojářské nástroje pracují přímo nad soubory v lokálním Git repozitáři, avšak primárním autorským a čtecím prostředím pro člověka zůstává Obsidian.
 
 ---
