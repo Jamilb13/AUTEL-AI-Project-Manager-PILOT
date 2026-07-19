@@ -1,0 +1,16 @@
+# Obsidian local settings and workspace state
+.obsidian/workspace.json
+.obsidian/workspace-mobile.json
+.obsidian/graph.json
+.obsidian/appearance.json
+.obsidian/hotkeys.json
+
+# Gemini AI agent local settings
+.gemini/
+.agents/
+
+# System and temporary files
+Thumbs.db
+.DS_Store
+*.tmp
+*.log
