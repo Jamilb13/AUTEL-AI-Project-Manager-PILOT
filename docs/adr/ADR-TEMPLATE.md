@@ -1,7 +1,7 @@
 ---
 document: docs/adr/ADR-TEMPLATE.md
 version: 0.1
-status: DRAFT
+status: Proposed
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
@@ -16,9 +16,8 @@ tags:
 ## Základní informace
 
 - **Stav:** Proposed / Accepted / Superseded / Deprecated
-- **Datum:** 2026-07-19
-- **Autor:** Kamil Běhálek / TBD
-- **Související ADR:** [[ADR-YYY]] (pokud existuje)
+- **Datum:** YYYY-MM-DD
+- **Autor:** [Autor]
 
 ---
 
@@ -50,3 +49,10 @@ tags:
 
 - **Alternativa A:** Popis a důvod zamítnutí.
 - **Alternativa B:** Popis a důvod zamítnutí.
+
+---
+
+## Související ADR
+
+- [[ADR-YYY]] – Popis vztahu.
+- Pokud neexistuje: Žádné.
