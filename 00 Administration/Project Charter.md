@@ -1,7 +1,7 @@
 ---
 document: Project Charter.md
 version: 0.2
-status: DRAFT
+status: APPROVED
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
@@ -119,7 +119,7 @@ Projekt se aktuálně nachází na svém počátku ve fázi **Foundation** (arch
 
 | Role | Jméno | Stav | Datum |
 | :--- | :--- | :--- | :--- |
-| Product Owner | Kamil Běhálek | Ke schválení | TBD |
+| Product Owner | Kamil Běhálek | Schváleno | 2026-07-19 |
 
 ## 13. Související dokumenty
 

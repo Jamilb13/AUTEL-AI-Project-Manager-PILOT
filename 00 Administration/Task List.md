@@ -1,6 +1,6 @@
 ---
 document: Task List.md
-version: 0.5
+version: 0.6
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -37,12 +37,11 @@ Při plánování schůzek, aktualizaci stavu projektu a při zahájení nebo do
 
 ## Review
 
-- [ ] T-001 | Vytvořit Project Charter | High | Review
-
 ---
 
 ## Done
 
+- [x] T-001 | Vytvořit Project Charter | High | Done
 - [x] T-007 | Úprava a přeuspořádání adresářové struktury projektu podle schváleného návrhu | High | Done
 - [x] T-008 | Aktualizace a sjednocení metadat u stávajících dokumentů [[PROJECT_CONTEXT]] a [[CHATGPT_ROLE]] | Medium | Done
 - [x] T-009 | Inicializovat prázdnou strukturu Git repozitáře a provést první commit | High | Done
