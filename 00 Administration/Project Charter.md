@@ -5,12 +5,12 @@ status: APPROVED
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[PROJECT_CONTEXT]]
-  - [[CHATGPT_ROLE]]
-  - [[Task List]]
-  - [[Kaizen Backlog]]
-  - [[Folder Map]]
+  - "[[README]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[CHATGPT_ROLE]]"
+  - "[[Task List]]"
+  - "[[Kaizen Backlog]]"
+  - "[[Folder Map]]"
 tags:
   - charter
   - governance

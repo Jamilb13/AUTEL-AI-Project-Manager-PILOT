@@ -5,8 +5,8 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[Task List.md]]
-  - [[Folder Map]]
+  - "[[Task List.md]]"
+  - "[[Folder Map]]"
 tags:
   - folder-index
   - roadmap

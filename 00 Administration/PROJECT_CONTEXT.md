@@ -5,9 +5,9 @@ status: APPROVED
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[CHATGPT_ROLE]]
-  - [[Folder Map]]
+  - "[[README]]"
+  - "[[CHATGPT_ROLE]]"
+  - "[[Folder Map]]"
 tags:
   - context
   - foundation

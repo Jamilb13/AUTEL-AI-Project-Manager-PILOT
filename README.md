@@ -5,12 +5,12 @@ status: APPROVED
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[PROJECT_CONTEXT]]
-  - [[CHATGPT_ROLE]]
-  - [[Folder Map]]
-  - [[Task List]]
-  - [[Kaizen Backlog]]
-  - [[Roadmap]]
+  - "[[PROJECT_CONTEXT]]"
+  - "[[CHATGPT_ROLE]]"
+  - "[[Folder Map]]"
+  - "[[Task List]]"
+  - "[[Kaizen Backlog]]"
+  - "[[Roadmap]]"
 tags:
   - foundation
   - index

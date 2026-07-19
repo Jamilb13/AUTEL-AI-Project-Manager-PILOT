@@ -5,11 +5,11 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[docs/architecture/ARCHITECTURE-ROADMAP]]
-  - [[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]
-  - [[docs/adr/decisions/ADR-002-project-brain-location]]
-  - [[docs/adr/decisions/ADR-003-autel-knowledge-hub-location]]
+  - "[[README]]"
+  - "[[docs/architecture/ARCHITECTURE-ROADMAP]]"
+  - "[[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]"
+  - "[[docs/adr/decisions/ADR-002-project-brain-location]]"
+  - "[[docs/adr/decisions/ADR-003-autel-knowledge-hub-location]]"
 tags:
   - knowledge-hub
   - foundation

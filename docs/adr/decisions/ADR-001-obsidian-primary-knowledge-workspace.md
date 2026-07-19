@@ -5,8 +5,8 @@ status: Accepted
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[docs/adr/README]]
-  - [[docs/adr/ADR-INDEX]]
+  - "[[docs/adr/README]]"
+  - "[[docs/adr/ADR-INDEX]]"
 tags:
   - adr
   - obsidian

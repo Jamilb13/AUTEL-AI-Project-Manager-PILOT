@@ -5,10 +5,10 @@ status: Accepted
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[docs/adr/README]]
-  - [[docs/adr/ADR-INDEX]]
-  - [[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]
-  - [[docs/adr/decisions/ADR-002-project-brain-location]]
+  - "[[docs/adr/README]]"
+  - "[[docs/adr/ADR-INDEX]]"
+  - "[[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]"
+  - "[[docs/adr/decisions/ADR-002-project-brain-location]]"
 tags:
   - adr
   - location

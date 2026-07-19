@@ -5,9 +5,9 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[00 Administration/Project Charter]]
-  - [[docs/adr/ADR-INDEX]]
+  - "[[README]]"
+  - "[[00 Administration/Project Charter]]"
+  - "[[docs/adr/ADR-INDEX]]"
 tags:
   - architecture
   - roadmap

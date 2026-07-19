@@ -5,9 +5,9 @@ status: Accepted
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[docs/adr/README]]
-  - [[docs/adr/ADR-INDEX]]
-  - [[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]
+  - "[[docs/adr/README]]"
+  - "[[docs/adr/ADR-INDEX]]"
+  - "[[docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace]]"
 tags:
   - adr
   - location

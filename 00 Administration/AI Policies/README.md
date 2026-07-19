@@ -5,8 +5,8 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[PROJECT_CONTEXT]]
-  - [[Folder Map]]
+  - "[[PROJECT_CONTEXT]]"
+  - "[[Folder Map]]"
 tags:
   - folder-index
   - ai-policies

@@ -5,8 +5,8 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[Folder Map]]
+  - "[[README]]"
+  - "[[Folder Map]]"
 tags:
   - folder-index
   - version-history

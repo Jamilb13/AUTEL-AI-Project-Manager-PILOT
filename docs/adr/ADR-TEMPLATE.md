@@ -5,7 +5,7 @@ status: Proposed
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[docs/adr/README]]
+  - "[[docs/adr/README]]"
 tags:
   - adr
   - template

@@ -5,9 +5,9 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[README]]
-  - [[PROJECT_CONTEXT]]
-  - [[Kaizen Backlog]]
+  - "[[README]]"
+  - "[[PROJECT_CONTEXT]]"
+  - "[[Kaizen Backlog]]"
 tags:
   - tasks
   - project-management

@@ -5,8 +5,8 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[06 Architecture]]
-  - [[Folder Map]]
+  - "[[06 Architecture]]"
+  - "[[Folder Map]]"
 tags:
   - folder-index
   - adr

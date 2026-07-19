@@ -5,8 +5,8 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[Folder Map.md]]
-  - [[Folder Map]]
+  - "[[Folder Map.md]]"
+  - "[[Folder Map]]"
 tags:
   - folder-index
   - metadata

@@ -5,7 +5,7 @@ status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
 related:
-  - [[docs/knowledge-hub/README]]
+  - "[[docs/knowledge-hub/README]]"
 tags:
   - knowledge-hub
   - governance
