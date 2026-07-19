@@ -1,6 +1,6 @@
 ---
 document: Task List.md
-version: 0.3
+version: 0.4
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -25,11 +25,6 @@ Při plánování schůzek, aktualizaci stavu projektu a při zahájení nebo do
 
 ## Backlog
 
-- [ ] T-002 | Vytvořit šablony pro jednotlivé expertní domény v [[Brain PM]] | Low | Backlog
-- [ ] T-003 | Zpracovat návrh informační architektury ve složce [[06 Architecture]] | Medium | Backlog
-- [ ] T-004 | Připravit testovací scénáře pro pilotní nasazení v [[07 Testing]] | Medium | Backlog
-- [ ] T-005 | Definovat pravidla zabezpečení dat v rámci [[AI Policies]] | High | Backlog
-
 ---
 
 ## Todo
@@ -43,8 +38,6 @@ Při plánování schůzek, aktualizaci stavu projektu a při zahájení nebo do
 ---
 
 ## Review
-
-- [ ] T-006 | Schválení základní dokumentace (Project Charter, Roadmap, Folder Map) Product Ownerem | High | Review
 
 ---
 
