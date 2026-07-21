@@ -1,6 +1,6 @@
 ---
 document: docs/architecture/ARCHITECTURE-ROADMAP.md
-version: 0.4
+version: 0.5
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-21
@@ -54,7 +54,7 @@ Tyto oblasti představují další kroky v budování základního architektonic
 | Oblast / Téma | Stav | Popis |
 | :--- | :--- | :--- |
 | **Documentation Standards** | `Completed` | Kanonická pravidla pro metadata Markdown dokumentů a konzistenci dokumentace. |
-| **Knowledge Hub Foundation** | `In Progress` | Architektonický a metodický základ celofiremního úložiště znalostí. |
+| **Knowledge Hub Foundation** | `Completed` | Architektonický a metodický základ celofiremního úložiště znalostí. |
 | **PARA Organization** | `Planned` | Logické rozdělení a organizace složek podle upravené metodiky PARA pro projekty AUTEL. |
 | **Expert Domains** | `Planned` | Specifikace a pravidla pro znalostní báze jednotlivých odborných oddělení. |
 | **AI Playbooks** | `Planned` | Standardizace pracovních postupů pro AI a instrukcí pro Copiloty. |
