@@ -3,7 +3,7 @@ document: docs/knowledge-hub/GOVERNANCE.md
 version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
-last_update: 2026-07-19
+last_update: 2026-07-21
 related:
   - "[[docs/knowledge-hub/README]]"
 tags:

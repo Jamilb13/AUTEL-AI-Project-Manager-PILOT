@@ -3,7 +3,7 @@ document: docs/knowledge-hub/README.md
 version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
-last_update: 2026-07-19
+last_update: 2026-07-21
 related:
   - "[[README]]"
   - "[[docs/architecture/ARCHITECTURE-ROADMAP]]"
