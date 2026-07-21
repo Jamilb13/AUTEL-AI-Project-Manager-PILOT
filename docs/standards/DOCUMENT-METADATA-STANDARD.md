@@ -50,7 +50,7 @@ Every Markdown document YAML frontmatter must present keys in exactly this order
 
 ```yaml
 document: <path>
-version: <version>
+version: "<version>"
 status: <status>
 owner: <owner>
 last_update: <date>
@@ -62,7 +62,7 @@ tags:
 
 ## 6. Data Types
 - **document:** `string` – Repository-relative Markdown file path (e.g. `docs/standards/DOCUMENT-METADATA-STANDARD.md`).
-- **version:** `string` – Semantic document version such as `0.1` or `1.0`.
+- **version:** `string` – Semantic document version such as `"0.1"` or `"1.0"`. Version values must be enclosed in double quotes to prevent YAML parsers from interpreting them as numeric values.
 - **status:** `string` – Lifecycle value relevant to the specific document context.
 - **owner:** `string` – Accountable human owner (e.g. `Kamil Běhálek`).
 - **last_update:** `date` – Date in `YYYY-MM-DD` format.
@@ -97,10 +97,11 @@ Status values are categorized by their specific lifecycle context and must not b
 *Rule:* Status values must not be mixed between lifecycle contexts without an approved change.
 
 ## 8. Versioning
-- `0.x` is used for draft and evolving Foundation documents (e.g. `0.1`, `0.2`).
-- `1.0` is used for the first approved stable release of a document.
-- **Minor increment:** Used for compatible content changes (e.g. `1.0` -> `1.1`).
-- **Major increment:** Used for significant restructuring or breaking changes (e.g. `1.0` -> `2.0`).
+- `0.x` is used for draft and evolving Foundation documents (e.g. `"0.1"`, `"0.2"`).
+- `1.0` is used for the first approved stable release of a document (e.g. `"1.0"`).
+- Version values must be enclosed in double quotes to prevent YAML parsers from interpreting them as numeric values.
+- **Minor increment:** Used for compatible content changes (e.g. `"1.0"` -> `"1.1"`).
+- **Major increment:** Used for significant restructuring or breaking changes (e.g. `"1.0"` -> `"2.0"`).
 - Version changes update metadata but do not replace Git commit history.
 - Automatic version changes are not imposed.
 
@@ -168,7 +169,7 @@ related:
 ```yaml
 ---
 document: 00 Administration/README.md
-version: 0.1
+version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-21
@@ -183,7 +184,7 @@ tags:
 ```yaml
 ---
 document: docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace.md
-version: 0.1
+version: "0.1"
 status: Accepted
 owner: Kamil Běhálek
 last_update: 2026-07-21
@@ -200,7 +201,7 @@ tags:
 ```yaml
 ---
 document: docs/standards/DOCUMENT-METADATA-STANDARD.md
-version: 0.1
+version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-21
@@ -232,6 +233,10 @@ document: docs/standards/README.md
 tags:
   - #Documentation
 # Explanation: Tags must be lowercase without # prefix.
+
+# Invalid Example 4: Unquoted version number
+version: 0.1
+# Explanation: An unquoted value may be parsed as a number instead of a string.
 ```
 
 ## 13. Validation Rules
