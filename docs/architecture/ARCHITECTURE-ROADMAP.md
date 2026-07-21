@@ -53,7 +53,7 @@ Tyto oblasti představují další kroky v budování základního architektonic
 
 | Oblast / Téma | Stav | Popis |
 | :--- | :--- | :--- |
-| **Documentation Standards** | `Completed` | Canonical rules for Markdown document metadata and documentation consistency. |
+| **Documentation Standards** | `Completed` | Kanonická pravidla pro metadata Markdown dokumentů a konzistenci dokumentace. |
 | **Knowledge Hub Foundation** | `In Progress` | Architektonický a metodický základ celofiremního úložiště znalostí. |
 | **PARA Organization** | `Planned` | Logické rozdělení a organizace složek podle upravené metodiky PARA pro projekty AUTEL. |
 | **Expert Domains** | `Planned` | Specifikace a pravidla pro znalostní báze jednotlivých odborných oddělení. |
