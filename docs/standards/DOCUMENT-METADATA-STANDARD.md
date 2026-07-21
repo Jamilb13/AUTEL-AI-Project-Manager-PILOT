@@ -1,6 +1,6 @@
 ---
 document: docs/standards/DOCUMENT-METADATA-STANDARD.md
-version: 0.1
+version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-21
@@ -19,21 +19,21 @@ tags:
 
 # Document Metadata Standard
 
-## 1. Purpose
-This standard formalizes the canonical YAML frontmatter format for all Markdown documents in the repository. It ensures that metadata is consistent, machine-readable, human-friendly, and fully compatible with Obsidian Properties.
+## 1. Účel
+Tento standard formalizuje kanonický formát YAML frontmatteru pro všechny Markdown dokumenty v repozitáři. Zajistí, že metadata budou konzistentní, strojově čitelná, přívětivá pro lidské uživatele a plně kompatibilní s Obsidian Properties.
 
-## 2. Metadata Philosophy
-The metadata schema adheres to the following principles:
-- **Simple:** Minimal cognitive overhead for authors and maintainers.
-- **Human-readable:** Clear, transparent key-value pairs formatted in standard text.
-- **Machine-readable:** Deterministic structure easily parsed by AI agents and scripts.
-- **Obsidian-compatible:** Designed to render seamlessly in Obsidian Properties without parsing errors.
-- **Consistent:** Uniform field naming, order, and value formats across all files.
-- **Minimal:** Standardizes only essential fields already used in the repository without unnecessary clutter.
-- **Extensible only by approved decision:** New metadata keys require explicit approval.
+## 2. Filosofie metadat
+Schéma metadat se řídí následujícími principy:
+- **Jednoduchost (Simple):** Minimální mentální zátěž pro autory a správce.
+- **Lidská čitelnost (Human-readable):** Jasné, transparentní dvojice klíč-hodnota formátované v běžném textu.
+- **Strojová čitelnost (Machine-readable):** Deterministická struktura snadno zpracovatelná AI agenty a skripty.
+- **Kompatibilita s Obsidianem (Obsidian-compatible):** Navrženo pro bezproblémové vykreslování v Obsidian Properties bez chyb při zpracování.
+- **Konzistence (Consistent):** Jednotné pojmenování polí, pořadí a formáty hodnot napříč všemi soubory.
+- **Minimalismus (Minimal):** Standardizuje pouze nezbytná pole již používaná v repozitáři bez zbytečného balastu.
+- **Rozšiřitelnost pouze schváleným rozhodnutím:** Nové klíče metadat vyžadují výslovné schválení.
 
-## 3. Required Fields
-The following seven fields are mandatory in all repository Markdown frontmatters:
+## 3. Povinná pole
+Následujících sedm polí je povinných ve všech YAML frontmatterech v repozitáři:
 - `document`
 - `version`
 - `status`
@@ -42,11 +42,11 @@ The following seven fields are mandatory in all repository Markdown frontmatters
 - `related`
 - `tags`
 
-## 4. Optional Fields
-No additional optional metadata fields are currently standardized. All documents must use only the seven standardized required fields.
+## 4. Volitelná pole
+V současnosti nejsou standardizována žádná další volitelná pole metadat. Všechny dokumenty musí používat pouze sedm standardizovaných povinných polí.
 
-## 5. Canonical Field Order
-Every Markdown document YAML frontmatter must present keys in exactly this order:
+## 5. Kanonické pořadí polí
+Každý YAML frontmatter Markdown dokumentu musí uvádět klíče přesně v tomto pořadí:
 
 ```yaml
 document: <path>
@@ -60,66 +60,66 @@ tags:
   - <tag>
 ```
 
-## 6. Data Types
-- **document:** `string` – Repository-relative Markdown file path (e.g. `docs/standards/DOCUMENT-METADATA-STANDARD.md`).
-- **version:** `string` – Semantic document version such as `"0.1"` or `"1.0"`. Version values must be enclosed in double quotes to prevent YAML parsers from interpreting them as numeric values.
-- **status:** `string` – Lifecycle value relevant to the specific document context.
-- **owner:** `string` – Accountable human owner (e.g. `Kamil Běhálek`).
-- **last_update:** `date` – Date in `YYYY-MM-DD` format.
-- **related:** `list of strings` – YAML list of quoted Obsidian wikilink strings (e.g. `"[[README]]"`).
-- **tags:** `list of strings` – YAML list of individual lowercase text values.
+## 6. Datové typy
+- **document:** `string` – Cesta k Markdown souboru relativně k repozitáři (např. `docs/standards/DOCUMENT-METADATA-STANDARD.md`).
+- **version:** `string` – Sémantická verze dokumentu, např. `"0.1"` nebo `"1.0"`. Hodnoty verze musí být uzavřeny v uvozovkách, aby se zabránilo YAML parserům v jejich interpretaci jako číselných hodnot.
+- **status:** `string` – Hodnota životního cyklu odpovídající specifickému kontextu dokumentu.
+- **owner:** `string` – Odpovědný lidský vlastník (např. `Kamil Běhálek`).
+- **last_update:** `date` – Datum ve formátu `YYYY-MM-DD`.
+- **related:** `list of strings` – YAML seznam uvozovaných řetězců Obsidian wiki-odkazů (např. `"[[README]]"`).
+- **tags:** `list of strings` – YAML seznam jednotlivých hodnot textu psaných malými písmeny.
 
-## 7. Status Values
-Status values are categorized by their specific lifecycle context and must not be mixed:
+## 7. Hodnoty stavu (Status Values)
+Hodnoty stavu jsou kategorizovány podle jejich konkrétního kontextu životního cyklu a nesmí se míchat:
 
-### General Foundation Documents
-- `DRAFT` – Document is under active creation or review.
-- `APPROVED` – Document has been formally approved by Product Owner.
+### Obecné dokumenty Foundation
+- `DRAFT` – Dokument je ve fázi aktivní tvorby nebo revize.
+- `APPROVED` – Dokument byl formálně schválen Product Ownerem.
 
-### ADR Documents
-- `Proposed` – Architecture decision proposed for review.
-- `Accepted` – Architecture decision approved and active.
-- `Superseded` – Decision replaced by a newer ADR.
-- `Deprecated` – Decision retired without replacement.
+### Záznamy architektonických rozhodnutí (ADR)
+- `Proposed` – Architektonické rozhodnutí předložené k přezkoumání.
+- `Accepted` – Architektonické rozhodnutí schválené a aktivní.
+- `Superseded` – Rozhodnutí nahrazené novějším ADR.
+- `Deprecated` – Rozhodnutí vyřazené bez náhrady.
 
-### Architecture Roadmap Work Package States
-- `Planned` – Work package identified but not started.
-- `In Progress` – Work package currently active.
-- `Completed` – Work package finished.
+### Stavy pracovních balíčků Architektonické roadmapy
+- `Planned` – Pracovní balíček identifikován, ale dosud nezahájen.
+- `In Progress` – Pracovní balíček je aktuálně aktivní.
+- `Completed` – Pracovní balíček je dokončen.
 
-### Knowledge Hub Content Lifecycle
-- `Draft` – Content in initial draft state.
-- `Review` – Content under technical/editorial review.
-- `Approved` – Content approved for publication.
-- `Published` – Content live and active in Knowledge Hub.
-- `Archived` – Retracted or obsolete content.
+### Životní cyklus obsahu v Knowledge Hubu
+- `Draft` – Obsah v počátečním stavu návrhu.
+- `Review` – Obsah prochází technickým/edičním review.
+- `Approved` – Obsah schválen pro publikaci.
+- `Published` – Obsah je živý a aktivní v Knowledge Hubu.
+- `Archived` – Stažený nebo zastaralý obsah.
 
-*Rule:* Status values must not be mixed between lifecycle contexts without an approved change.
+*Pravidlo:* Hodnoty stavu nesmí být míchány mezi jednotlivými kontexty životního cyklu bez schválené změny.
 
-## 8. Versioning
-- `0.x` is used for draft and evolving Foundation documents (e.g. `"0.1"`, `"0.2"`).
-- `1.0` is used for the first approved stable release of a document (e.g. `"1.0"`).
-- Version values must be enclosed in double quotes to prevent YAML parsers from interpreting them as numeric values.
-- **Minor increment:** Used for compatible content changes (e.g. `"1.0"` -> `"1.1"`).
-- **Major increment:** Used for significant restructuring or breaking changes (e.g. `"1.0"` -> `"2.0"`).
-- Version changes update metadata but do not replace Git commit history.
-- Automatic version changes are not imposed.
+## 8. Verzování
+- `0.x` se používá pro rozpracované a vyvíjející se dokumenty Foundation (např. `"0.1"`, `"0.2"`).
+- `1.0` se používá pro první schválené stabilní vydání dokumentu (např. `"1.0"`).
+- Hodnoty verze musí být uzavřeny v uvozovkách, aby se zabránilo YAML parserům v jejich interpretaci jako číselných hodnot.
+- **Minoritní navýšení (Minor increment):** Používá se pro kompatibilní změny obsahu (např. `"1.0"` -> `"1.1"`).
+- **Majoritní navýšení (Major increment):** Používá se pro zásadní restrukturalizaci nebo breaking changes (např. `"1.0"` -> `"2.0"`).
+- Změny verze aktualizují metadata, ale nenahrazují historii v Gitu.
+- Automatické změny verzí nejsou vynucovány.
 
-## 9. Date Format
-All dates must use the ISO 8601 calendar date format:
+## 9. Formát data
+Všechna data musí používat kalendářní formát data podle ISO 8601:
 `YYYY-MM-DD`
 
-Locale-specific date formats (e.g. `19.07.2026` or `07/19/2026`) are strictly forbidden.
+Lokální formáty data (např. `19.07.2026` nebo `07/19/2026`) jsou přísně zakázány.
 
-## 10. Tags
-- Must be formatted as a YAML list.
-- One tag per list item.
-- All characters must be lowercase.
-- Multiple words must be separated by hyphens (`-`).
-- No `#` prefix (e.g. use `foundation`, not `#foundation`).
-- No nested arrays or comma-separated single strings.
+## 10. Tagy
+- Musí být formátovány jako YAML seznam.
+- Jeden tag na položku seznamu.
+- Všechny znaky musí být malá písmena.
+- Víceslovné tagy musí být odděleny pomlčkami (`-`).
+- Bez předpony `#` (např. použijte `foundation`, nikoli `#foundation`).
+- Žádná vnořená pole ani samostatné řetězce oddělené čárkami.
 
-Example:
+Příklad:
 ```yaml
 tags:
   - documentation
@@ -127,8 +127,8 @@ tags:
   - foundation
 ```
 
-## 11. Related Links
-Canonical format requirements for the `related` field:
+## 11. Související odkazy (Related Links)
+Požadavky na kanonický formát pro pole `related`:
 
 ```yaml
 related:
@@ -136,36 +136,36 @@ related:
   - "[[docs/architecture/ARCHITECTURE-ROADMAP]]"
 ```
 
-### Rules
-- Every item must be a quoted YAML string (surrounded by double quotes `"..."`).
-- Every item must contain exactly one Obsidian wikilink.
-- Wikilink display aliases are permitted.
+### Pravidla
+- Každá položka musí být uvozovaný YAML řetězec (uzavřený v dvojitých uvozovkách `"..."`).
+- Každá položka musí obsahovat přesně jeden Obsidian wiki-odkaz.
+- Zobrazované aliasy wiki-odkazů jsou povoleny.
 
-Alias Example:
+Příklad aliasu:
 ```yaml
 related:
   - "[[docs/adr/ADR-INDEX|ADR Index]]"
 ```
 
-### Forbidden Examples
+### Zakázané příklady
 ```yaml
-# Forbidden: Unquoted double brackets (parsed as nested flow sequences in YAML)
+# Zakázáno: Neuvozované dvojité závorky (v YAML interpretováno jako vnořená pole)
 related:
   - [[README]]
 
-# Forbidden: Single concatenated string
+# Zakázáno: Samostatný řetězec spojený čárkami
 related: "[[README]], [[docs/adr/README]]"
 
-# Forbidden: Explicit nested array
+# Zakázáno: Explicitní vnořené pole
 related:
   - [["README"]]
 ```
 
-*Explanation:* Unquoted double brackets `[[...]]` are parsed by standard YAML as nested flow sequences (`[["README"]]`), which breaks Obsidian Properties parsing and displays links as malformed array strings.
+*Vysvětlení:* Neuvozované dvojité závorky `[[...]]` jsou standardním YAML parserem vyhodnoceny jako vnořená pole (flow sequences) (`[["README"]]`), což narušuje zpracování v Obsidian Properties a zobrazuje odkazy jako chybné řetězce polí.
 
-## 12. Examples
+## 12. Příklady (Examples)
 
-### A. Minimal Valid Example
+### A. Minimální platný příklad
 ```yaml
 ---
 document: 00 Administration/README.md
@@ -180,7 +180,7 @@ tags:
 ---
 ```
 
-### B. ADR Example
+### B. Příklad pro ADR
 ```yaml
 ---
 document: docs/adr/decisions/ADR-001-obsidian-primary-knowledge-workspace.md
@@ -197,7 +197,7 @@ tags:
 ---
 ```
 
-### C. Foundation Document Example
+### C. Příklad pro dokument Foundation
 ```yaml
 ---
 document: docs/standards/DOCUMENT-METADATA-STANDARD.md
@@ -216,46 +216,46 @@ tags:
 ---
 ```
 
-### D. Invalid Examples
+### D. Neplatné příklady
 
 ```yaml
-# Invalid Example 1: Missing quotes on wikilinks
+# Neplatný příklad 1: Chybějící uvozovky u wiki-odkazů
 related:
   - [[README]]
-# Explanation: Parses as nested array [['README']], breaking Obsidian Properties.
+# Vysvětlení: Interpretuje se jako vnořené pole [['README']], což narušuje Obsidian Properties.
 
-# Invalid Example 2: Incorrect field order
+# Neplatný příklad 2: Nesprávné pořadí polí
 status: DRAFT
 document: docs/standards/README.md
-# Explanation: Fields must follow canonical order (document, version, status, owner, last_update, related, tags).
+# Vysvětlení: Pole musí následovat v kanonickém pořadí (document, version, status, owner, last_update, related, tags).
 
-# Invalid Example 3: Tag with # prefix and uppercase
+# Neplatný příklad 3: Tag s předponou # a velkými písmeny
 tags:
   - #Documentation
-# Explanation: Tags must be lowercase without # prefix.
+# Vysvětlení: Tagy musí být malými písmeny bez předpony #.
 
-# Invalid Example 4: Unquoted version number
+# Neplatný příklad 4: Neuvozované číslo verze
 version: 0.1
-# Explanation: An unquoted value may be parsed as a number instead of a string.
+# Vysvětlení: Neuvozovaná hodnota může být interpretována jako číslo místo řetězce.
 ```
 
-## 13. Validation Rules
-Manual validation checklist for authors and reviewers:
-1. Frontmatter begins and ends with exactly `---`.
-2. No duplicate keys exist.
-3. Canonical field order is strictly maintained.
-4. Date format matches `YYYY-MM-DD`.
-5. `related` is a YAML list of double-quoted wikilink strings.
-6. `tags` is a YAML list of individual lowercase text values.
-7. `status` value belongs to the appropriate lifecycle context.
-8. `document` path matches the file's repository-relative location.
-9. YAML indentation uses exactly two spaces per level.
-10. No tab characters are used in YAML.
+## 13. Pravidla pro validaci (Validation Rules)
+Kontrolní seznam pro ruční validaci autory a přezkoumávajícími:
+1. Frontmatter začíná a končí přesně znaky `---`.
+2. Neexistují žádné duplicitní klíče.
+3. Kanonické pořadí polí je striktně dodrženo.
+4. Formát data odpovídá `YYYY-MM-DD`.
+5. `related` je YAML seznam uvozovaných řetězců wiki-odkazů v dvojitých uvozovkách.
+6. `tags` je YAML seznam jednotlivých hodnot textu psaných malými písmeny.
+7. Hodnota `status` patří do odpovídajícího kontextu životního cyklu.
+8. Cesta `document` odpovídá umístění souboru relativně k repozitáři.
+9. Odsazení YAML používá přesně dvě mezery na úroveň.
+10. V YAML nejsou použity žádné tabulátory.
 
-*Constraint:* Do not create validation scripts or automated build checkers in this work package.
+*Omezení:* V tomto pracovním balíčku nevytvářejte validační skripty ani automatizované nástroje pro kontrolu.
 
-## 14. Future Extensibility
-- New metadata fields require explicit proposal and Product Owner approval.
-- Significant metadata schema changes may require a dedicated ADR.
-- Automated validation scripts or CI pipeline checkers may be introduced in a separate future work package.
-- Backward compatibility with existing repository documents must be preserved wherever practical.
+## 14. Budoucí rozšiřitelnost (Future Extensibility)
+- Nová pole metadat vyžadují výslovný návrh a schválení Product Ownerem.
+- Významné změny schématu metadat mohou vyžadovat samostatné ADR.
+- Automatizované validační skripty nebo kontroly v CI pipeline mohou být zavedeny v samostatném budoucím pracovním balíčku.
+- Zpětná kompatibilita ze stávajícími dokumenty v repozitáři by měla být zachována, kdekoliv je to praktické.
