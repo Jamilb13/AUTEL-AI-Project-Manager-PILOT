@@ -1,6 +1,6 @@
 ---
 document: docs/knowledge-hub/README.md
-version: 0.1
+version: "0.1"
 status: DRAFT
 owner: Kamil Běhálek
 last_update: 2026-07-19
@@ -21,7 +21,7 @@ tags:
 ## Účel Knowledge Hubu
 AUTEL Knowledge Hub slouží jako centrální firemní znalostní báze společnosti AUTEL, a.s. Jeho cílem je sjednotit, bezpečně ukládat a zpřístupňovat celofiremní standardy, osvědčené postupy, šablony a odborné know-how jak pro lidské uživatele, tak pro systémy umělé inteligence (např. Microsoft 365 Copilot).
 
-## Rozsah (Scope)
+## Rozsah
 V rozsahu Knowledge Hubu je:
 - Celofiremní technická a projektová metodika.
 - Firemní standardy kvality a technické standardy.
